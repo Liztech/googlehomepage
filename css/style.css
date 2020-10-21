@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 1px;
+  line-height: 1.2;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  float: right;
+  margin-bottom: 100%;
+}
+.header a,
+header button {
+  text-decoration: none;
+  color: #000;
+  margin: 10px;
+}
+
+.header button {
+  background: #4484f1;
+  padding: 4px;
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 10%;
+  font-weight: bold;
+}
+
+.main {
+  text-align: center;
+}
+
+.gogglelogo-image {
+  margin: 10%;
+  padding-top: 109px;
+  height: 92px;
+  text-align: center;
+}
+
+.searchbox input[type="text"] {
+  padding: 15px 15px;
+  width: 65%;
+  height: 65%;
+  padding-inline-end: 40px;
+  padding-inline-start: 40px;
+  position: relative;
+  font-size: 16px;
+  text-align: start;
+  display: inline-block;
+  visibility: visible;
+  border-radius: 20px 20px;
+}
+
+.googlebutton {
+  background: #f8f9fa;
+  color: #3c4043;
+}
